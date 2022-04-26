@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MagicFragment"
+    android:background="@color/black">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_magic_title"
+        android:id="@+id/about_comics_header"
+        android:textColor="@color/white"
+        android:layout_gravity="top"
+        android:layout_marginStart="100dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/magic_gif"
+        android:layout_gravity="top"
+        android:src="@drawable/magic"/>
+
+    <TextView
+        android:id="@+id/about_magic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="@string/fragment_magic"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</FrameLayout>
+</ScrollView>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Card Bidders</string>
+    <string name="menu_home">Main Menu</string>
+    <string name="menu_auctions">Select Auction Types</string>
+    <string name="txt_title">Card Bidders 2021</string>
+    <string name="txt_thanks">Thank you for participating please leave your contact info. below</string>
+    <string name="rad_option_one">I love it!</string>
+    <string name="rad_option_two">Most of it\'s pretty good</string>
+    <string name="rad_option_three">Neither good nor bad</string>
+    <string name="rad_option_four">It could use some work</string>
+    <string name="rad_option_five">Terrible</string>
+    <string name="txt_radio_head">What do you think of Card Bidders?</string>
+    <string name="txt_seek_head">What would you rate Card Bidders out of 100?</string>
+    <string name="txt_description">Welcome to Card Bidders 2021 The source for all your trading card Auctioning Needs. Use the
+    buttons below to  place a bid, view active bids, try out getting your fortune told just for fun, leave feedback on what you
+        think of the app or check out more about the app through the About button or the
+    menu. You are welcome to bid on any card as long as your bid is greater than the starting amount, but be aware the winner
+    will be the person who places the highest bid so check back on Active Bids to see who has the top bid for a card.</string>
+    <string name="btn_bid">Place A Bid</string>
+    <string name="btn_date_time">Time Feedback Placed</string>
+    <string name="btn_submit">Submit</string>
+    <string name="txt_title_feed">Feedback</string>
+    <string name="txt_desc_feed">Please use the form below to give us your impressions of Card Bidders 2021</string>
+    <string name="btn_feedback">Feedback</string>
+    <string name="btn_fortune">Fortune Teller</string>
+    <string name="txt_fortune">Fortune Teller Nashandra</string>
+    <string name="txt_fortune_pre">She Predicts:</string>
+    <string name="btn_get_fortune">Get Your Fortune</string>
+    <string name="btn_view_bids">View Active Bids</string>
+    <string name="curr_view_bids">Current Active Bids</string>
+    <string name="btn_about">About The Cards</string>
+    <string name="btn_magic">Magic: The Gathering</string>
+    <string name="btn_sports">Sports Cards</string>
+    <string name="btn_comics">Comic Book Cards</string>
+    <string name="btn_pokemon">Pokemon</string>
+    <string name="card_name">Card Name</string>
+    <string name="your_name">Your Full Name</string>
+    <string name="card_desc">Card Description</string>
+    <string name="card_value">$0.00</string>
+    <string name="bid_warning">Please only enter a whole dollar amount for your bid. When you want to place the bid click
+    the button below. Warning all bids placed are final.</string>
+    <string name="btn_placeBid">Bid On this Card</string>
+    <string name="bid_title">Place A Bid</string>
+    <string name="start_value">Starting Amount</string>
+    <string name="new_value">Your Bid Amount</string>
+    <string name="your_email">Your Email Address</string>
+    <string name="auctions_title">Pick What Type of Auctions You Would Like to View</string>
+    <string name="about_comics_title">Comic Book Trading Cards</string>
+    <string name="about_magic_title">Magic The Gathering</string>
+    <string name="about_sports_title">SportsTrading Cards</string>
+    <string name="about_pokemon_title">Pokemon Trading Cards</string>
+    <string name="fragment_magic">Magic The Gathering first created in 1993 by Wizards of the Coast.
+    A player in Magic takes the role of a Planeswalker, doing battle with other players as Planeswalkers by
+        casting spells, using artifacts, and summoning creatures as depicted on individual cards drawn from
+        their individual decks. The game was originally inspired by fantasy-roleplaying games like
+    Dungeons &amp; Dragons(Source Wikipedia) </string>
+    <string name="fragment_sports">Sports cards have been around since the 1860s originating with
+    baseball cards, but they have now come to encompass all kinds of different sports including
+    basketball, hockey, football, cricket and soccer.(Source Wikipedia) </string>
+    <string name="fragment_comics">Comic Book inspired trading cards have been around for decades
+    drawing inspiration from many of the biggest comic book superhero names from Marvel,DC,Image,Black
+    Horse and many other publishers.(Source Wikipedia)</string>
+    <string name="fragment_pokemon">Pokemon is based off of a popular Japanese video game from Nintendo.
+        The first set of cards was released on October 20, 1996, containing 102 cards, with drawings by Ken Sugimori,
+        Mitsuhiro Arita and Keiji Kinebuchi. The cards soon became very popular, and three years later in 1999,
+        they were introduced to North America by Wizards of the Coast and shortly after the rest of the world.(Source Wikipedia)</string>
+
+</resources>

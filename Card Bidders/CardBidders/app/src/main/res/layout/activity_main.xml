@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/red">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/title_gif"
+        android:layout_width="wrap_content"
+        android:layout_height="368dp"
+        android:src="@drawable/cards" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_description"
+        android:text="@string/txt_description"
+        android:layout_marginTop="25dp"
+        android:padding="15dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/border"
+        android:fontFamily="serif"/>
+
+    <Button
+        style="@style/Buttons"
+        android:id="@+id/btn_bid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_bid"
+        android:fontFamily="serif"/>
+
+    <Button
+        style="@style/Buttons"
+        android:id="@+id/btn_view_bids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_view_bids"
+        android:fontFamily="serif"/>
+
+    <Button
+        style="@style/Buttons"
+        android:id="@+id/btn_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_about"
+        android:fontFamily="serif"/>
+    <Button
+        style="@style/Buttons"
+        android:id="@+id/btn_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_feedback"
+        android:fontFamily="serif"/>
+    <Button
+        style="@style/Buttons"
+        android:id="@+id/btn_fortune"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_fortune"
+        android:fontFamily="serif"/>
+
+</LinearLayout>
+</ScrollView>

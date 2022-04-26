@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:layout_width="410dp"
+    android:layout_height="731dp"
+    android:background="@color/red"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/bid_title"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/card_name"
+        android:textColor="@color/white"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:fontFamily="serif"/>
+
+    <EditText
+        android:id="@+id/enterCard"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:focusable="false"
+        android:hint="@string/card_name"
+        android:inputType="text"
+        android:fontFamily="serif"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_value"
+        android:textColor="@color/white"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:fontFamily="serif"/>
+
+    <EditText
+        android:id="@+id/starting_value"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:focusable="false"
+        android:hint="@string/card_value"
+        android:inputType="text"
+        android:fontFamily="serif"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/your_name"
+    android:textColor="@color/white"
+    android:layout_marginStart="40dp"
+    android:layout_marginTop="10dp"
+    android:textSize="20dp"
+        android:fontFamily="serif"/>
+
+    <EditText
+        android:id="@+id/bid_name"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:hint="@string/your_name"
+        android:inputType="text"
+        android:fontFamily="serif"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_email"
+        android:textColor="@color/white"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:fontFamily="serif"/>
+
+    <EditText
+        android:id="@+id/bid_email"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:hint="@string/your_email"
+        android:inputType="text"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_value"
+        android:textColor="@color/white"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:fontFamily="serif"/>
+
+    <EditText
+        android:id="@+id/bid_final_value"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:hint="$0"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="serif"
+        android:text="@string/bid_warning"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/button_final_bid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/btn_placeBid"
+        android:fontFamily="serif"
+        android:shadowColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/red"/>
+
+</LinearLayout>
+</ScrollView>

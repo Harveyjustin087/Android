@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/cardicon"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/white"/>
+    <item android:id="@+id/item_main"
+        android:title="@string/menu_home"
+        android:icon="@drawable/home"
+        app:showAsAction="never" />
+    <item android:id="@+id/item_auctions"
+        android:title="@string/menu_auctions"
+        android:icon="@drawable/cardicon"
+        app:showAsAction="never"/>
+    <item android:id="@+id/item_view"
+        android:title="@string/btn_view_bids"
+        android:icon="@drawable/records"
+        app:showAsAction="never"/>
+    <item android:id="@+id/item_feed"
+        android:title="@string/btn_feedback"
+        android:icon="@drawable/cardsmenu"
+        app:showAsAction="never"/>
+</menu>

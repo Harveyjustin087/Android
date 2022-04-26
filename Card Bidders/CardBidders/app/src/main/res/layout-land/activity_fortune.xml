@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<TableLayout
+    android:layout_width="731dp"
+    android:layout_height="match_parent"
+    tools:context=".Fortune"
+    android:theme="@style/Theme.CardBidders2021">
+
+    <TableRow android:layout_width="match_parent">
+        <TextView
+            android:layout_width="367dp"
+            android:layout_marginStart="55dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/txt_fortune"
+            android:textSize="45dp" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_marginStart="115dp"
+            android:id="@+id/img_fortune"
+        android:layout_width="430dp"
+        android:layout_height="350dp"
+        android:src="@drawable/fortune" />
+    </TableRow>
+    <TableRow>
+    <Button
+        android:id="@+id/btn_get_fortune"
+        android:layout_width="731dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_get_fortune"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/txt_fortune_pre"
+            android:textSize="45dp" />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/fortuneFinal"
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+    </TableRow>
+</TableLayout>
+</ScrollView>
